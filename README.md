@@ -1,7 +1,5 @@
 # User Aplication 
 
-[[_TOC_]]
-
 ### Wymagania wstępne
 
 * [X] _MAMPP / XAMPP_.
