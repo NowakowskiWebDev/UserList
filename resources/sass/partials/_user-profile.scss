@@ -1,0 +1,30 @@
+.user-profile {
+
+    &__avatar {
+        max-width: rem(50px);
+        height: auto;
+    }
+
+    .card {
+        min-width: rem(250px);
+    }
+
+    @include media-breakpoint-up(sm) {
+        .card {
+            min-width: rem(500px);
+        }
+     }
+
+    &__item:nth-child(even) {
+        background-color: #CCC;
+    }
+
+    &__club-icon {
+        max-width: rem(20px);
+        height: auto;
+    }
+
+    &__form-edit.hide {
+        display: none;
+    }
+}

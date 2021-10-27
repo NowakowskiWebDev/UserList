@@ -1,0 +1,16 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Helpers
+@import 'helpers/rem-calculation';
+
+// Variables
+@import 'variables/colors';
+@import 'variables/typography';
+
+// Import Custom SCSS
+@import "global";
+
+// Partials
+@import'partials/user-profile.scss';
+
